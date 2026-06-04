@@ -41,6 +41,11 @@ body {
     color:  #F8F6F0;
 }
 
+.side-bar a:hover {
+    color: #F97316;
+    transition: 0.3s;
+}
+
 /* section */
 
 .hero {
@@ -111,6 +116,11 @@ p {
     height: 600px;
 }
 
+.tombol :hover {
+    background-color: #F97316;
+    transition: 0.3s;
+}
+
 /* About me */
 
 .About-me {
@@ -154,15 +164,20 @@ p {
     color:  #F8F6F0;
 }
 
-.tombol3  {
+.tombol3 {
     margin-top: 35px;
     display: flex;
     gap: 20px;
 }
 
-.tombol3 a {
+.tombol3 a{
     text-decoration: none;
     color: #F8F6F0;
+}
+
+.tombol3 :hover {
+    background-color: #F97316;
+    transition: 0.3s;
 }
 
 /* project */
@@ -193,14 +208,14 @@ p {
 
 .card img {
     width: 100%;
-    height: 230px;
+    height: 200px;
     border-radius: 20px 20px 0px 0px;
 }
 
 
 .card h2 {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 35px;
     color: #F8F6F0;
 }
 
@@ -209,7 +224,7 @@ p {
     line-height: 20px;
     text-align: start;
     text-align: center;
-    padding: 20px 10px 0px;
+    padding: 20px 15px 0px;
 }
 
 .link {
@@ -223,12 +238,17 @@ p {
 .link a {
     width: 35%;
     height: 5vh;
-    Background: #94A3B8;
+    background: #FAF3E0;
     text-decoration: none;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.link a:hover {
+    background-color: #F97316;
+    transition: 0.3s;
 }
 
 /* footer */
@@ -273,12 +293,152 @@ p {
 }
 
 .cardf p {
-    font-size: 13px;
+    font-size: 10px;
     color: #FAF3E0;
 }
 
+/* Hp */
 
+@media (max-width: 768px) {
 
+    /* Navbar */
+    .side-bar {
+        height: auto;
+        flex-direction: column;
+        padding: 15px 0;
+        gap: 10px;
+    }
 
+    .side-bar ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
+    /* Hero */
+    .hero {
+        height: auto;
+        padding: 120px 0 50px;
+    }
 
+    .container {
+        padding: 0 20px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .isi,
+    .gambar {
+        width: 100%;
+        height: auto;
+    }
+
+    .isi h1 {
+        padding-top: 0;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .gambar img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .tombol {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .button {
+        width: 150px;
+        height: 45px;
+    }
+
+    /* About */
+    .About-me {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .profile {
+        padding: 0 20px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .gambar2,
+    .isi2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .gambar2 img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .isi2 h1 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .tombol3 {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* Project */
+    .project {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .parents {
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .card img {
+        height: auto;
+    }
+
+    .link a {
+        width: 150px;
+        height: 45px;
+    }
+
+    /* Footer */
+    .sosial-media {
+        height: auto;
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 30px 20px;
+        gap: 20px;
+    }
+
+    .cardh2,
+    .card3 {
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+
+    .cardf p {
+        text-align: center;
+    }
+}

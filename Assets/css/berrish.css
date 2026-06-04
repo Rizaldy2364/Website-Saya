@@ -1,0 +1,425 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFF3E0;
+}
+
+.side-bar {
+    width: 100%;
+    height: 6vh;
+    display:flex;
+    justify-content: space-around;
+    color: #F8F6F0;
+    align-items: center;
+    position: fixed;
+    background-color: palevioletred;
+}
+
+.side-bar h1 {
+    font-size: 20px;
+}
+
+.side-bar ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.side-bar a {
+    text-decoration: none;
+    color: #F8F6F0;
+}
+
+.side-bar a:hover {
+    color: #DC2626;
+    transition: 0.3s;
+}
+
+/* section */
+
+.hero {
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.container {
+    width: 100%;
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 100px;
+}
+
+.isi {
+    width: 90%;
+    height: 600px;
+}
+
+.deskripsi {
+    font-size: 0.7em;
+    padding-top: 140px;
+}
+
+.isi h1 {
+    font-size: 3em;
+    color: #DC2626;
+}
+
+p {
+    padding-top: 20px;
+    font-size: medium;
+    color: #374151;
+    line-height: 30px;
+}
+
+.tombol {
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.button {
+    width: 25%;
+    height: 5vh;
+    border-radius: 30px;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tombol a {
+    text-decoration: none;
+    color: #F8F6F0;
+}
+
+.tombol :hover {
+    background-color: #374151;
+    transition: 0.3s;
+}
+
+.gambar {
+    width: 90%;
+    height: 600px;
+    background-color: brown;
+}
+
+.gambar img {
+    width: 100%;
+    height: 80vh;
+    height: 600px;
+}
+
+/* about */
+
+.About-me {
+    margin-top: 20px;
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    width: 100%;
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 100px;
+    margin-top: 70px;
+}
+
+.gambar2 {
+    width: 90%;
+    height: 600px;
+}
+
+.gambar2 img {
+    width: 100%;
+    height: 80vh;
+    height: 600px;
+}
+
+.isi2 {
+    width: 90%;
+    height: 600px;
+}
+
+.isi2 h1 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-size: 2.5em;
+    color: #DC2626;
+}
+
+.tombol3  {
+    margin-top: 35px;
+    display: flex;
+    gap: 20px;
+}
+
+.tombol3 a {
+    text-decoration: none;
+    color: #F8F6F0;
+}
+
+.tombol3 :hover {
+    background-color: #374151;
+    transition: 0.3s;
+}
+
+/* menu */
+
+.project {
+    width: 100%;
+    height: 160vh;
+}
+
+.project h2 {
+    padding-top: 90px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.project p {
+    width: 100%;
+    text-align: center;
+}
+
+.parents {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    margin-top: 70px;
+    margin-left: 100px;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    background-color:#F8F6F0;
+}
+
+.card img {
+    width: 300px;
+    height:300px;
+}
+
+.card h3 {
+    width: 100%;
+    padding-top: 10px;
+    color: #DC2626;
+}
+
+.card p {
+    line-height: 0px;
+
+}
+
+.btn {
+    margin-top: 40px;
+    width: 50%;
+    height: 3.5vh;
+    border-radius: 20px;
+
+}
+
+.btn:hover {
+    background-color: #374151;
+    color: #FAF3E0;
+    transition: 0.3s;
+}
+
+/* footer */
+
+.sosial-media {
+    margin-top: 80px;
+    width: 100%;
+    height: 37vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    background-color:#4E342E;
+}
+
+.cardh2 {
+    width: 45%;
+    height: 20vh;
+    margin-left: 100px;
+    color: #F8F6F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card3 {
+    margin-top: 50px;
+    width: 45%;
+    height: 20vh;
+    margin-left: 100px;
+    color: #F8F6F0;
+}
+
+.sosial-media ul  {
+    list-style: none;
+    padding-top: 10px;
+    line-height: 25px;
+}
+
+.sosial-media a {
+    text-decoration: none;
+    color:  #F8F6F0;
+}
+
+.cardf {
+    margin-top: 60px;
+}
+
+.cardf p {
+    font-size: 10px;
+    color: #FAF3E0;
+}
+
+iframe {
+    width: 300px;
+    height: 150px;
+}
+
+/* footer smoothie */
+
+.sosial-medias {
+    margin-top:630px;
+    width: 100%;
+    height: 37vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    background-color:#4E342E;
+}
+
+.sosial-medias ul {
+    list-style: none;
+    padding-top: 10px;
+    line-height: 25px;
+}
+
+.sosial-medias a {
+    text-decoration: none;
+    color:  #F8F6F0;
+}
+
+.cardf2 {
+    width: 100%;
+    text-align: center;
+    color: #FFF3E0;
+    margin-bottom: 100%;
+    font-size: 15px;
+}
+
+.cardf h4 {
+    font-size: 16px;
+    color: #FAF3E0;
+}
+
+.cardf2 p {
+    font-size: 10px;
+}
+
+/* footer drink */
+
+.sosial-mediald {
+    margin-top:75%;
+    width: 100%;
+    height: 37vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    background-color:#4E342E;
+}
+
+.sosial-mediald ul {
+    list-style: none;
+    padding-top: 10px;
+    line-height: 25px;
+}
+
+.sosial-mediald a {
+    text-decoration: none;
+    color:  #F8F6F0;
+}
+
+/* Juice Menu */
+
+.projectj {
+    width: 100%;
+    height: 110vh;
+}
+
+.projectj h2{
+    padding-top: 90px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.projectj p {
+    width: 100%;
+    text-align: center;
+}
+
+.juice-parents {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardj {
+    margin-top: 70px;
+    width: 40%;
+    height: 70vh;
+    text-align: center;
+    background-color:#F8F6F0;
+}
+
+.cardj h3 {
+    padding-top: 30px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.juice-menu {
+    width: 100%;
+    /* background-color: #DC2626; */
+    height: 56vh;
+    display: flex;
+    text-align: start;
+}
+
+.jus {
+    width: 50%;
+    /* background-color: blue; */
+    height: 56vh;
+    border: 1px solid black;
+    
+}
+
+.jus p {
+    text-align: start;
+    padding: 30px;
+}
